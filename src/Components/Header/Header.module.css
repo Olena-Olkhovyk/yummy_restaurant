@@ -1,0 +1,63 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 60px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.list {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+i {
+  font-size: 35px;
+}
+i:hover {
+  cursor: pointer;
+}
+.saleBtn {
+  padding: 12px 23px;
+  background-color: #e31c25;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  border-radius: 4px;
+}
+.saleBtn:hover {
+  cursor: pointer;
+  background-color: #be0912;
+}
+.logo {
+  width: 100px;
+  height: auto;
+  background-color: black;
+}
+.trackOrder {
+  color: #8c9f3f;
+  border: 1px solid #8c9f3f;
+  background-color: inherit;
+  padding: 8px 20px;
+  border-radius: 4px;
+}
+.trackOrder:hover {
+  background-color: #8c9f3f;
+  color: black;
+  cursor: pointer;
+}
+.cart {
+  display: flex;
+  gap: 2px;
+}
+.cart:hover {
+  color: rgb(181, 179, 179);
+}
