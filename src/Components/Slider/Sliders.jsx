@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Slider from "react-slick";
 import "bootstrap/dist/css/bootstrap.min.css";
 import classes from "./Slider.module.css";
@@ -12,6 +12,8 @@ const Sliders = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
   };
 
   return (
