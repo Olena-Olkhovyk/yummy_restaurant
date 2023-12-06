@@ -1,0 +1,20 @@
+.slider {
+  position: relative;
+  left: 6%;
+  top: 3.9rem;
+  width: 92%;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+}
+@media screen and (max-width: 1022px) {
+  .slider {
+    position: relative;
+    /* left: 6%; */
+    top: 10rem;
+    width: 100%;
+  }
+}
