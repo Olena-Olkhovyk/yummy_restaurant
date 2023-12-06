@@ -1,0 +1,44 @@
+.menu {
+  position: fixed;
+  left: 0;
+  top: 5rem;
+  width: 50px;
+  height: 800px;
+  padding: 0 10px;
+  background-color: white;
+  transition: width 0.6s ease-in-out, transform 0.8s ease-in-out;
+}
+.menu:hover {
+  width: 170px;
+  transform: translateX(1px);
+  cursor: pointer;
+}
+.menu span {
+  display: inline-block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 18px;
+  font-weight: 700;
+}
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  transition: background-color 0.3s;
+}
+.menu ul li:hover {
+  background-color: rgba(245, 222, 179, 0.719);
+}
+.imageContainer img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
