@@ -67,6 +67,7 @@
 .cart .desktopContent,
 .cart .desktopContent i {
   display: flex;
+  align-items: center;
 }
 @media screen and (max-width: 1022px) {
   .list1 {
