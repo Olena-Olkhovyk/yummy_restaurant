@@ -4,7 +4,7 @@
   top: 3.8rem;
   width: 50px;
   height: 800px;
-  padding: 10px 10px;
+  padding: 15px 10px;
   background-color: white;
   transition: width 0.6s ease-in-out, transform 0.8s ease-in-out;
   z-index: 999;
@@ -34,6 +34,7 @@
   margin-bottom: 10px;
   border-bottom: 1px solid #ccc;
   transition: background-color 0.3s;
+  padding: 7px 0;
 }
 .menu ul li:hover {
   background-color: rgba(245, 222, 179, 0.719);
