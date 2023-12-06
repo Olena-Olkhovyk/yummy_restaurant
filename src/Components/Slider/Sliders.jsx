@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import Slider from "react-slick";
 import "bootstrap/dist/css/bootstrap.min.css";
 import classes from "./Slider.module.css";
