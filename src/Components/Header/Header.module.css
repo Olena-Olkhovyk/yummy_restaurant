@@ -97,4 +97,10 @@
     font-size: 13px;
     padding: 5px 4px;
   }
+  .logo {
+    width: 80px;
+  }
+  .burger {
+    font-size: 30px;
+  }
 }
