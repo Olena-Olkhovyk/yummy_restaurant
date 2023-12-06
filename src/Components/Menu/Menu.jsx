@@ -1,12 +1,12 @@
 import classes from "./Menu.module.css";
-import burger from "../../assets/burger_122704.png";
-import pizza from "../../assets/Pizza_icon-icons.com_68706.png";
-import rice from "../../assets/Rice_Bowl_icon-icons.com_68695.png";
-import cocteil from "../../assets/Sex_on_the_Beach_25441.png";
-import salad from "../../assets/iconfinder-healthcare-and-medicalorganicvegansaladhealthy-foodavocadodietvegetarianfoodfruit-4394779_119506.png";
-import soup from "../../assets/if-food-c214-2427858_85695.png";
-import dessert from "../../assets/if-food-c228-2427887_85696.png";
-import sushi from "../../assets/sushi_maki_chopsticks_asian_food_icon_142412.png";
+import burger from "../../assets/zakuski_1689162823920.svg";
+import pizza from "../../assets/pici_1689162770314.svg";
+import rice from "../../assets/garyachi-stravi.svg";
+import cocteil from "../../assets/napoyi.svg";
+import salad from "../../assets/salati.svg";
+import soup from "../../assets/supi.svg";
+import dessert from "../../assets/deserti.svg";
+import sushi from "../../assets/sushi-ta-seti_1689160630104.svg";
 const Menu = () => {
   const categories = [
     { name: "Бургери", image: burger },
