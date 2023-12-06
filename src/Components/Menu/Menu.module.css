@@ -42,3 +42,25 @@
   height: 50px;
   object-fit: cover;
 }
+@media screen and (max-width: 1022px) {
+  .menu {
+    width: 100%;
+    height: auto;
+    overflow-x: auto;
+    padding: 5px;
+  }
+  .menu:hover {
+    transform: none;
+  }
+  .menu ul {
+    display: flex;
+    gap: 5px;
+    padding: 0 5px;
+  }
+  .menuItem {
+    border-bottom: none;
+  }
+  .menuItem span {
+    padding-right: 8px;
+  }
+}
