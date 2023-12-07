@@ -1,0 +1,35 @@
+.delon {
+  width: 100%;
+  position: relative;
+  left: 14%;
+  top: 200px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+.deliveryContainer {
+  width: 85%;
+}
+.deliveryTitle {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.imgContainer {
+  background-color: #e1b787;
+  border-radius: 50%;
+  padding: 10px 10px;
+  width: 100px;
+  transition: padding 0.3s ease-in-out;
+  margin: 0 auto;
+}
+.itemImg {
+  width: 80px;
+  height: 80px;
+}
+.imgContainer:hover {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.itemName {
+  font-size: 18px;
+  position: relative;
+  left: 70px;
+}
