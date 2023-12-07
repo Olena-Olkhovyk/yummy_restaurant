@@ -13,8 +13,12 @@
 @media screen and (max-width: 1022px) {
   .slider {
     position: relative;
-    /* left: 6%; */
     top: 10rem;
     width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .slider {
+    width: 105%;
   }
 }
