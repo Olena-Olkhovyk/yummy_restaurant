@@ -1,9 +1,10 @@
 .delon {
-  width: 100%;
+  width: 111%;
   position: relative;
-  left: 14%;
+  left: 6%;
   top: 200px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  padding: 60px 95px;
 }
 .deliveryContainer {
   width: 85%;
@@ -18,7 +19,6 @@
   padding: 10px 10px;
   width: 100px;
   transition: padding 0.3s ease-in-out;
-  margin: 0 auto;
 }
 .itemImg {
   width: 80px;
@@ -30,6 +30,4 @@
 }
 .itemName {
   font-size: 18px;
-  position: relative;
-  left: 70px;
 }
