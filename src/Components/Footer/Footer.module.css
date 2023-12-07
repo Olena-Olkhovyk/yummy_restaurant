@@ -1,0 +1,29 @@
+.footerContainer {
+  position: relative;
+  left: 6%;
+  top: 290px;
+  background-color: black;
+  width: 94%;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-gap: 20px;
+  padding: 30px;
+}
+nav a {
+  text-decoration: none;
+  color: #b8b8b8;
+}
+.logo {
+  width: 100px;
+}
+.policy {
+  text-align: center;
+}
+@media screen and (max-width: 1022px) {
+  .footerContainer {
+    left: 0;
+    width: 108%;
+  }
+}
