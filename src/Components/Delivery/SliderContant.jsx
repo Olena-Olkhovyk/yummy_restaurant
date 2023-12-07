@@ -31,7 +31,7 @@ const SliderContent = () => {
   ];
   return (
     <div className={classes.deliveryContainer}>
-      <div className={classes.delon}>
+      <div className={classes.deliveryBox}>
         <h1 className={classes.deliveryTitle}>Меню доставки</h1>
         <Slider {...settings}>
           {deliveryItems.map(({ name, image }) => (

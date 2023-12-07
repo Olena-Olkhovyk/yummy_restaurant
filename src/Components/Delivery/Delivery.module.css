@@ -1,13 +1,13 @@
-.delon {
+.deliveryContainer {
+  width: 85%;
+}
+.deliveryBox {
   width: 111%;
   position: relative;
   left: 6%;
   top: 200px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
   padding: 60px 95px;
-}
-.deliveryContainer {
-  width: 85%;
 }
 .deliveryTitle {
   text-align: center;
