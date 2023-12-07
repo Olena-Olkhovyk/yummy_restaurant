@@ -31,3 +31,75 @@
 .itemName {
   font-size: 18px;
 }
+@media screen and (max-width: 1022px) {
+  .deliveryContainer {
+    width: 96%;
+  }
+  .deliveryBox {
+    left: 1%;
+    top: 300px;
+  }
+}
+@media screen and (max-width: 781px) {
+  .deliveryBox {
+    padding: 60px 110px;
+  }
+  .imgContainer {
+    padding: 8px 8px;
+    width: 90%;
+  }
+  .itemImg {
+    width: 70px;
+    height: 70px;
+  }
+  .itemName {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 673px) {
+  .deliveryBox {
+    padding: 60px 85px;
+  }
+  .imgContainer {
+    width: 80%;
+  }
+  .itemImg {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 522px) {
+  .deliveryContainer {
+    width: 95%;
+  }
+  .deliveryBox {
+    width: 120%;
+    padding: 60px 95px;
+    overflow-x: hidden;
+  }
+  .deliveryBox {
+    padding: 60px 60px;
+  }
+  .imgContainer {
+    width: 70%;
+  }
+  .itemImg {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 522px) {
+  .deliveryBox {
+    width: 130%;
+  }
+  .imgContainer {
+    width: 60%;
+  }
+  .itemImg {
+    width: 40px;
+    height: 40px;
+  }
+  .itemName {
+    font-size: 12px;
+  }
+}
