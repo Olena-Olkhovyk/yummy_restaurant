@@ -1,0 +1,82 @@
+.itemsContainer {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  width: 90%;
+}
+.itemsCard {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  padding: 10px;
+}
+.itemCard {
+  width: 50%;
+}
+.itemImg {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.itemCard:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.itemName {
+  white-space: nowrap;
+}
+.itemName:hover {
+  color: #8c9f3f;
+}
+.price {
+  margin-top: 3rem;
+}
+.orderButton {
+  background: #fff;
+  border: 1px solid #8c9f3f;
+  color: #8c9f3f;
+  font-size: 16px;
+  line-height: 20px;
+  width: 50%;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-top: 4rem;
+}
+.orderButton:hover {
+  color: #fff;
+  background: #8c9f3f;
+}
+@media screen and (max-width: 1023px) {
+  .itemsContainer {
+    top: 220px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .itemsCard {
+    left: -50px;
+  }
+  .itemImg {
+    width: 200px;
+  }
+  .orderButton {
+    font-size: 14px;
+    width: 60%;
+    padding: 8px 25px;
+  }
+}
+@media screen and (max-width: 515px) {
+  .itemName {
+    font-size: 18px;
+  }
+  .orderButton {
+    font-size: 12px;
+    width: 70%;
+    padding: 5px 20px;
+  }
+  .itemsCard {
+    left: -55px;
+  }
+}
