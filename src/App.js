@@ -4,6 +4,7 @@ import Menu from "./Components/Menu/Menu";
 import Sliders from "./Components/Slider/Sliders";
 import Items from "./Components/Items/Items";
 import Delivery from "./Components/Delivery/Delivery";
+import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
       <Sliders />
       <Items />
       <Delivery />
+      <Footer />
     </div>
   );
 }
