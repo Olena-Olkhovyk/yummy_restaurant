@@ -1,22 +1,25 @@
 import React from "react";
-import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { selectSelectedItems } from "../../redux/slices/itemSlice";
+import classes from "./ItemDetails.module.css";
 const ItemDetails = () => {
-  //
   const selectedItem = useSelector(selectSelectedItems);
-  //   if (!selectedItem || typeof selectedItem !== "object") {
-  //     // If selectedItem is null or not an object, handle this case (e.g., redirect to another page)
-  //     return <p>Item not found</p>;
-  //   }
-  const { name, price, image } = selectedItem;
-
+  if (!selectedItem || typeof selectedItem !== "object") {
+    return <p>Item not found</p>;
+  }
+  const { name, price, image, ingridients, gramm } = selectedItem;
   return (
-    <>
-      <h1> {name} </h1>
-      <p>{price}</p>
-      <img src={image} alt={name} />
-    </>
+    <div className={classes.itemDetailCont}>
+      <img src={image} alt={name} className={classes.img} />
+      <div className={classes.description}>
+        <h1 className={classes.title}>
+          {" "}
+          {name}({gramm}г){" "}
+        </h1>
+        <p className={classes.price}>Ціна: {price}</p>
+        <p className={classes.price}>Інгрідієнти{ingridients}</p>
+      </div>
+    </div>
   );
 };
 export default ItemDetails;
