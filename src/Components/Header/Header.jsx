@@ -18,13 +18,13 @@ const Header = () => {
       <button className={classes.trackOrder}>Відстежити замовлення</button>
       <ul className={classes.list2}>
         <li>
-          <i class="fa-solid fa-location-dot"></i>Харків
+          <i class="fa-solid fa-location-dot"></i>
+          <span className={classes.city}>Харків</span>
         </li>
         <li>
           <i class="fa-solid fa-phone"></i>
         </li>
-        <li>UA</li>
-        <li>Вхід</li>
+        <li className={classes.entrance}>Вхід</li>
         <li>
           <i class="fa-regular fa-user"></i>
         </li>
