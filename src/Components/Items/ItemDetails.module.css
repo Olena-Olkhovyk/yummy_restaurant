@@ -1,0 +1,26 @@
+.itemDetailCont {
+  display: flex;
+  gap: 8rem;
+  margin: 2rem 7rem;
+}
+
+.title,
+.price {
+  position: relative;
+  left: 5rem;
+  top: 10rem;
+}
+@media screen and (max-width: 950px) {
+  .itemDetailCont {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    margin: 0rem 7rem;
+  }
+  .title,
+  .price {
+    position: relative;
+    left: 0;
+    top: -10rem;
+  }
+}
