@@ -25,21 +25,33 @@ const Items = () => {
       image: bigpizza,
       name: "Піцца мафія",
       price: 299,
+      ingridients:
+        "Філе куряче sous-vide, перець болгарський, сир моцарела, ананас, часник, соус маринара, соус BBQ Сирний соус в ПОДАРУНОК!",
+      gramm: 1350,
     },
     {
       image: salad,
       name: "Салат цезарь",
       price: 100,
+      ingridients:
+        "Креветки, авокадо, томати, мікс салатів, яйце, сир Пармезан, крутони з зеленим маслом та часником, соус Цезар",
+      gramm: 275,
     },
     {
       image: chickenSalad,
       name: "Салат із куркою",
       price: 80,
+      ingridients:
+        "Курка, солодкий перець , червона цибуля, ананас, морква, арахіс, соус кисло-солодкий",
+      gramm: 375,
     },
     {
       image: burger,
       name: "Бургер",
       price: 90,
+      ingridients:
+        "Котлета з яловичини, сир хохланд, салат айзберг, червона цибуля, помідор, соуси тар-тар та сирний",
+      gramm: 305,
     },
   ];
   return (
@@ -47,17 +59,24 @@ const Items = () => {
       <h1>Ми рекомендуємо</h1>
       <div className={classes.itemsCard}>
         <Slider {...settings}>
-          {items.map(({ image, name, price }) => (
+          {items.map(({ image, name, price, ingridients, gramm }) => (
             <div className={classes.itemCard} key={name}>
               <Link to={`/item/${name}`}>
-                <img
-                  src={image}
-                  alt={name}
-                  className={`img-fluid ${classes.itemImg}`}
-                  onClick={() => dispatch(setItem({ name, price, image }))}
-                />
-                <h1 className={classes.itemName}>{name}</h1>
-                <h3 className={classes.price}>{price} грн</h3>
+                <div
+                  onClick={() =>
+                    dispatch(
+                      setItem({ name, price, image, ingridients, gramm })
+                    )
+                  }
+                >
+                  <img
+                    src={image}
+                    alt={name}
+                    className={`img-fluid ${classes.itemImg}`}
+                  />
+                  <h1 className={classes.itemName}>{name}</h1>
+                  <h3 className={classes.price}>{price} грн</h3>
+                </div>
               </Link>
               <button className={classes.orderButton}>Замовити</button>
             </div>
