@@ -27,3 +27,12 @@ nav a {
     width: 108%;
   }
 }
+@media screen and (max-width: 500px) {
+  .footerContainer {
+    width: 123%;
+    margin-bottom: 2rem;
+  }
+  .gridContainer {
+    grid-gap: 5px;
+  }
+}
