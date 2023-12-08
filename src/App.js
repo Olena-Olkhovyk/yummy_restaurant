@@ -9,9 +9,9 @@ function App() {
       <div className="App">
         <Header />
         <Menu />
-        <Footer />
       </div>
       <Outlet></Outlet>
+      <Footer />
     </>
   );
 }
