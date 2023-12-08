@@ -6,8 +6,12 @@ import salad from "../../assets/Items/salad.jpg";
 import chickenSalad from "../../assets/Items/chickenSalad.jpg";
 import burger from "../../assets/Items/burger.jpg";
 import { Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { setItem } from "../../redux/slices/itemSlice";
+import { selectSelectedItems } from "../../redux/slices/itemSlice";
 
 const Items = () => {
+  const dispatch = useDispatch();
   const settings = {
     infinite: true,
     speed: 500,
@@ -50,6 +54,7 @@ const Items = () => {
                   src={image}
                   alt={name}
                   className={`img-fluid ${classes.itemImg}`}
+                  onClick={() => dispatch(setItem({ name, price, image }))}
                 />
                 <h1 className={classes.itemName}>{name}</h1>
                 <h3 className={classes.price}>{price} грн</h3>
