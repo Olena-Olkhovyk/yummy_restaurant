@@ -1,7 +1,7 @@
 .footerContainer {
   position: relative;
   left: 6%;
-  top: 290px;
+  bottom: -30px;
   background-color: black;
   width: 94%;
 }
@@ -27,7 +27,7 @@ nav a {
     width: 108%;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 522px) {
   .footerContainer {
     width: 123%;
     margin-bottom: 2rem;
