@@ -5,6 +5,8 @@ import bigpizza from "../../assets/Items/bigpizza.jpg";
 import salad from "../../assets/Items/salad.jpg";
 import chickenSalad from "../../assets/Items/chickenSalad.jpg";
 import burger from "../../assets/Items/burger.jpg";
+import { Link } from "react-router-dom";
+
 const Items = () => {
   const settings = {
     infinite: true,
@@ -43,13 +45,15 @@ const Items = () => {
         <Slider {...settings}>
           {items.map(({ image, name, price }) => (
             <div className={classes.itemCard} key={name}>
-              <img
-                src={image}
-                alt={name}
-                className={`img-fluid ${classes.itemImg}`}
-              />
-              <h1 className={classes.itemName}>{name}</h1>
-              <h3 className={classes.price}>{price} грн</h3>
+              <Link to={`/item/${name}`}>
+                <img
+                  src={image}
+                  alt={name}
+                  className={`img-fluid ${classes.itemImg}`}
+                />
+                <h1 className={classes.itemName}>{name}</h1>
+                <h3 className={classes.price}>{price} грн</h3>
+              </Link>
               <button className={classes.orderButton}>Замовити</button>
             </div>
           ))}
