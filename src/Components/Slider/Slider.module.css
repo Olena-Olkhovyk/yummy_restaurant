@@ -1,8 +1,9 @@
 .slider {
   position: relative;
   left: 6%;
-  top: 3.9rem;
-  width: 92%;
+  top: 5rem;
+  width: 95%;
+  overflow: hidden;
 }
 
 .slider img {
@@ -19,6 +20,6 @@
 }
 @media screen and (max-width: 500px) {
   .slider {
-    width: 105%;
+    width: 110%;
   }
 }
