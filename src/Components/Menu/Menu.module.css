@@ -44,6 +44,9 @@
   height: 40px;
   object-fit: fill;
 }
+.active {
+  background-color: rgba(245, 222, 179, 0.719);
+}
 @media screen and (max-width: 1022px) {
   .menu {
     width: 100%;
