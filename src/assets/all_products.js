@@ -5,7 +5,7 @@ const all_products = [
       "https://mafia.ua/storage/image-storage/2023/12/01/28815/source/450x450/30b42aee-d8aa-48f5-9df3-b4cf513e5de4-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464305.jpg",
     title: "Піца Карбонара метрова ",
     gramm: 1200,
-    category: "pizza",
+    category: "Pizza",
     price: 200,
   },
   {
@@ -14,7 +14,7 @@ const all_products = [
       "https://mafia.ua/storage/image-storage/2023/12/01/28816/source/450x450/b9a26e51-3b27-4702-8b78-05f7755c9b67-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464307.jpg",
     title: "Піца Поло метрова",
     gramm: 1350,
-    category: "pizza",
+    category: "Pizza",
     price: 234,
   },
   {
@@ -23,7 +23,7 @@ const all_products = [
       "https://mafia.ua/storage/image-storage/2023/12/01/28805/source/450x450/73d99225-2841-42c0-93af-bdc10761dddc-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464258.jpg",
     title: "Піца Поло",
     gramm: 350,
-    category: "pizza",
+    category: "Pizza",
     price: 50,
   },
   {
@@ -32,7 +32,7 @@ const all_products = [
       "https://mafia.ua/storage/image-storage/2023/12/01/28806/source/450x450/69752cde-bfdb-4cfb-85a3-749597ccad2b-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464263.jpg",
     title: "Піца Карбонара",
     gramm: 550,
-    category: "pizza",
+    category: "Pizza",
     price: 260,
   },
   {
@@ -41,7 +41,7 @@ const all_products = [
       "https://mafia.ua/storage/image-storage/2023/12/01/28853/source/450x450/40252b61-7ad6-4a97-83b5-973f281e8617-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464530.jpg",
     title: "Дабл Чізбургер",
     gramm: 280,
-    category: "burger",
+    category: "Burger",
     price: 100,
   },
   {
@@ -50,7 +50,7 @@ const all_products = [
       "https://mafia.ua/storage/image-storage/2023/12/01/28854/source/450x450/bd87cc97-1b83-4375-b381-e026805f2b1d-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464536.jpg",
     title: "Гамбургер",
     gramm: 180,
-    category: "burger",
+    category: "Burger",
     price: 110,
   },
   {
@@ -59,7 +59,7 @@ const all_products = [
       "https://mafia.ua/storage/image-storage/2023/12/01/28852/source/450x450/084283e2-6894-44da-85d8-7844eb027461-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464524.jpg",
     title: "Бургер Кінг Йорк",
     gramm: 210,
-    category: "burger",
+    category: "Burger",
     price: 150,
   },
   {
@@ -68,7 +68,7 @@ const all_products = [
       "https://mafia.ua/storage/image-storage/2023/12/01/28918/source/450x450/f21aad65-e13f-42b0-addc-c57146a203f4-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464872.jpg",
     title: "Бургер на перемогу",
     gramm: 210,
-    category: "burger",
+    category: "Burger",
     price: 200,
   },
   {
