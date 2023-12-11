@@ -7,27 +7,38 @@ import salad from "../../assets/salati.svg";
 import soup from "../../assets/supi.svg";
 import dessert from "../../assets/deserti.svg";
 import sushi from "../../assets/sushi-ta-seti_1689160630104.svg";
+import { Link } from "react-router-dom";
+import React from "react";
 const Menu = () => {
+  const [menu, setMenu] = React.useState(0);
   const categories = [
-    { name: "Бургери", image: burger },
-    { name: "Піци", image: pizza },
-    { name: "Гарячі страви", image: rice },
-    { name: "Напої", image: cocteil },
-    { name: "Салати", image: salad },
-    { name: "Супи", image: soup },
-    { name: "Десерти", image: dessert },
-    { name: "Суші та сети", image: sushi },
+    { name: "Burger", image: burger },
+    { name: "Pizza", image: pizza },
+    { name: "Garyachi stravy", image: rice },
+    { name: "Drinks", image: cocteil },
+    { name: "Salads", image: salad },
+    { name: "Soup", image: soup },
+    { name: "Desserts", image: dessert },
+    { name: "Sushi and sets", image: sushi },
   ];
   return (
     <div className={classes.menu}>
       <ul>
         {categories.map(({ name, image }) => (
-          <li className={classes.menuItem} key={name}>
-            <div className={classes.imageContainer}>
-              <img src={image} alt={`${name} icon`} />
-            </div>
-            <span>{name} </span>
-          </li>
+          <Link to={`/${name}`}>
+            <li
+              className={`${classes.menuItem} ${
+                menu === name ? classes.active : ""
+              }`}
+              key={name}
+              onClick={() => setMenu(name)}
+            >
+              <div className={classes.imageContainer}>
+                <img src={image} alt={`${name} icon`} />
+              </div>
+              <span>{name} </span>
+            </li>
+          </Link>
         ))}
       </ul>
     </div>
