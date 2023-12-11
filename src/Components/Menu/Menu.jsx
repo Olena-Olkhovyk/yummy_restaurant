@@ -25,12 +25,11 @@ const Menu = () => {
     <div className={classes.menu}>
       <ul>
         {categories.map(({ name, image }) => (
-          <Link to={`/${name}`}>
+          <Link to={`/${name}`} key={name}>
             <li
               className={`${classes.menuItem} ${
                 menu === name ? classes.active : ""
               }`}
-              key={name}
               onClick={() => setMenu(name)}
             >
               <div className={classes.imageContainer}>
