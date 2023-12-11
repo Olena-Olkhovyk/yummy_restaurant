@@ -1,5 +1,6 @@
 import classes from "./Header.module.css";
 import logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -7,7 +8,10 @@ const Header = () => {
       <div className={classes.burger}>
         <i className="fa-solid fa-bars"></i>
       </div>
-      <img src={logo} className={classes.logo} alt="restaurant's logo" />
+      <Link to="/">
+        <img src={logo} className={classes.logo} alt="restaurant's logo" />
+      </Link>
+
       <ul className={classes.list1}>
         <li>Харків</li>
         <li>Ресторани</li>
