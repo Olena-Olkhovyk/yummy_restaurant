@@ -3,7 +3,7 @@ const all_products = [
     id: "0",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28815/source/450x450/30b42aee-d8aa-48f5-9df3-b4cf513e5de4-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464305.jpg",
-    title: "Піца Карбонара метрова ",
+    title: "Pizza Carbonara ",
     gramm: 1200,
     category: "Pizza",
     price: 200,
@@ -12,7 +12,7 @@ const all_products = [
     id: "1",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28816/source/450x450/b9a26e51-3b27-4702-8b78-05f7755c9b67-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464307.jpg",
-    title: "Піца Поло метрова",
+    title: "Pizza Polo",
     gramm: 1350,
     category: "Pizza",
     price: 234,
@@ -21,7 +21,7 @@ const all_products = [
     id: "2",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28805/source/450x450/73d99225-2841-42c0-93af-bdc10761dddc-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464258.jpg",
-    title: "Піца Поло",
+    title: "Pizza Polo round",
     gramm: 350,
     category: "Pizza",
     price: 50,
@@ -30,7 +30,7 @@ const all_products = [
     id: "3",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28806/source/450x450/69752cde-bfdb-4cfb-85a3-749597ccad2b-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464263.jpg",
-    title: "Піца Карбонара",
+    title: "Pizza Carbonara",
     gramm: 550,
     category: "Pizza",
     price: 260,
@@ -39,7 +39,7 @@ const all_products = [
     id: "4",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28853/source/450x450/40252b61-7ad6-4a97-83b5-973f281e8617-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464530.jpg",
-    title: "Дабл Чізбургер",
+    title: "Double Cheeseburger",
     gramm: 280,
     category: "Burger",
     price: 100,
@@ -48,7 +48,7 @@ const all_products = [
     id: "5",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28854/source/450x450/bd87cc97-1b83-4375-b381-e026805f2b1d-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464536.jpg",
-    title: "Гамбургер",
+    title: "Gamburger",
     gramm: 180,
     category: "Burger",
     price: 110,
@@ -57,7 +57,7 @@ const all_products = [
     id: "6",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28852/source/450x450/084283e2-6894-44da-85d8-7844eb027461-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464524.jpg",
-    title: "Бургер Кінг Йорк",
+    title: "Burger King York",
     gramm: 210,
     category: "Burger",
     price: 150,
@@ -66,7 +66,7 @@ const all_products = [
     id: "7",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28918/source/450x450/f21aad65-e13f-42b0-addc-c57146a203f4-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464872.jpg",
-    title: "Бургер на перемогу",
+    title: "Burger for the Victory",
     gramm: 210,
     category: "Burger",
     price: 200,
@@ -75,7 +75,7 @@ const all_products = [
     id: "8",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28875/source/450x450/6f4b80f6-d7f4-4790-8d50-8384e8a4dd35-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464641.jpg",
-    title: "Ребра на грилі",
+    title: "Grilled ribs",
     gramm: 340,
     category: "Garyachi stravy",
     price: 300,
@@ -84,7 +84,7 @@ const all_products = [
     id: "9",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28845/source/450x450/e0614a83-8d84-4dd3-90a5-e2aec74f7505-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464476.jpg",
-    title: "Картопля по-середземноморськи",
+    title: "Kartoplya ",
     gramm: 540,
     category: "Garyachi stravy",
     price: 320,
@@ -93,7 +93,7 @@ const all_products = [
     id: "10",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28843/source/450x450/53119436-32e2-4fe7-890a-ad1d1e0c0c7c-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464460.jpg",
-    title: "Стейк зі свинини на грилі",
+    title: "Grilled pork steak",
     gramm: 140,
     category: "Garyachi stravy",
     price: 430,
@@ -102,7 +102,7 @@ const all_products = [
     id: "11",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28842/source/450x450/481039d9-43eb-49e2-93f4-24da2d1f89f7-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464453.jpg",
-    title: "Паста Карбонара",
+    title: "Pasta Carbonara",
     gramm: 140,
     category: "Garyachi stravy",
     price: 270,
@@ -111,7 +111,7 @@ const all_products = [
     id: "12",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28864/source/450x450/2f5b3547-0706-4045-ad3d-b9b9f98df828-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464590.jpg",
-    title: "Апельсин",
+    title: "Orange",
     liter: 0.95,
     category: "Drinks",
     price: 50,
@@ -120,7 +120,7 @@ const all_products = [
     id: "13",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/29021/source/450x450/3101909e-3a07-45c9-a199-9a517237d868-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701465138.jpg",
-    title: "Моршинська газована",
+    title: "Morshynska gazovana",
     liter: 330,
     category: "Drinks",
     price: 30,
@@ -129,7 +129,7 @@ const all_products = [
     id: "14",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28867/source/450x450/75d812df-1972-42e7-b7b8-ca3261f1a78f-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464595.jpg",
-    title: "Яблуко ",
+    title: "Apple ",
     liter: 0.95,
     category: "Drinks",
     price: 20,
@@ -138,7 +138,7 @@ const all_products = [
     id: "15",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28865/source/450x450/d437a774-ebb7-4142-9bdf-05633cca6ed9-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464592.jpg",
-    title: "Вишня  ",
+    title: "Cherry  ",
     liter: 0.95,
     category: "Drinks",
     price: 50,
@@ -147,7 +147,7 @@ const all_products = [
     id: "16",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28856/source/450x450/68a57e85-c71b-4b06-9564-8ef5c680d4b7-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464549.jpg",
-    title: "Чізкейк класичний  ",
+    title: "Classic cheesecake  ",
     gramm: 150,
     category: "Desserts",
     price: 100,
@@ -156,7 +156,7 @@ const all_products = [
     id: "17",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28915/source/450x450/06b7a49b-49cd-4de4-aa13-56ffc0805251-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464854.jpg",
-    title: "Брауні з карамеллю  ",
+    title: "Caramel Brownies  ",
     gramm: 110,
     category: "Desserts",
     price: 130,
@@ -165,7 +165,7 @@ const all_products = [
     id: "18",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28859/source/450x450/3db533a0-ca05-4aec-b385-3ff80aa02ab3-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464563.jpg",
-    title: "Тарт Горiх з карамелю  ",
+    title: "Tarte Horikh with caramel  ",
     gramm: 70,
     category: "Desserts",
     price: 120,
@@ -174,7 +174,7 @@ const all_products = [
     id: "19",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28858/source/450x450/33777f49-ba8d-432b-b2f9-381c0c1f09a2-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464559.jpg",
-    title: "Наполеон   ",
+    title: "Napoleon   ",
     gramm: 90,
     category: "Desserts",
     price: 110,
@@ -183,7 +183,7 @@ const all_products = [
     id: "20",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28838/source/450x450/ee2b45c9-8923-4ee1-8e64-86a3665bdd9a-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464426.jpg",
-    title: "Курячий бульйон   ",
+    title: "Chicken Broth   ",
     gramm: 365,
     category: "Soup",
     price: 70,
@@ -192,7 +192,7 @@ const all_products = [
     id: "21",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28839/source/450x450/5c4b3246-6532-485a-b296-dfc87aa79d43-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464434.jpg",
-    title: "Рамен    ",
+    title: "Ramen    ",
     gramm: 355,
     category: "Soup",
     price: 60,
@@ -201,7 +201,7 @@ const all_products = [
     id: "22",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28840/source/450x450/d3e3707f-a8d0-434d-af17-a1a9305e6ee2-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464440.jpg",
-    title: "Скандинавський суп із лососем    ",
+    title: "Scandinavian salmon soup    ",
     gramm: 240,
     category: "Soup",
     price: 76,
@@ -210,7 +210,7 @@ const all_products = [
     id: "23",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/29006/source/450x450/d93deeba-637f-4f24-821e-8401d438b788-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701465101.jpg",
-    title: "Том-ям з морепродуктами    ",
+    title: "Tom Yum with Seafood    ",
     gramm: 200,
     category: "Soup",
     price: 80,
@@ -219,7 +219,7 @@ const all_products = [
     id: "24",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28834/source/450x450/17988f9a-fa0d-47b8-bbe5-7631b3482495-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464403.jpg",
-    title: "Цезар з креветками    ",
+    title: "Caesar with shrimp    ",
     gramm: 270,
     category: "Salads",
     price: 150,
@@ -228,7 +228,7 @@ const all_products = [
     id: "25",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28835/source/450x450/3b8943d3-0b40-455e-b7db-2d7a69669110-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464408.jpg",
-    title: "Салат з телятиною    ",
+    title: "Veal saladю    ",
     gramm: 202,
     category: "Salads",
     price: 130,
@@ -237,7 +237,7 @@ const all_products = [
     id: "26",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28832/source/450x450/6ddab1b1-8719-44ee-b7e3-ff7c82bea043-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464394.jpg",
-    title: "Цезар з куркою    ",
+    title: "Chicken Caesar    ",
     gramm: 272,
     category: "Salads",
     price: 110,
@@ -246,7 +246,7 @@ const all_products = [
     id: "27",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28837/source/450x450/41ad8997-3354-465f-8af0-dedfa7262cc4-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464419.jpg",
-    title: "Салат Грецький     ",
+    title: "Greek Salad     ",
     gramm: 242,
     category: "Salads",
     price: 100,
@@ -255,7 +255,7 @@ const all_products = [
     id: "28",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28942/source/450x450/a7e49771-0a80-4efc-ac60-473234d11191-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464947.jpg",
-    title: "Філадельфія",
+    title: "Philadelphia",
     gramm: 1200,
     category: "Sushi and sets",
     price: 900,
@@ -264,7 +264,7 @@ const all_products = [
     id: "29",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/29018/source/450x450/73c83883-c2fa-430b-9fbd-71ee2257a52d-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701465131.jpg",
-    title: "Хот Рору",
+    title: "Hot Roru",
     gramm: 400,
     category: "Sushi and sets",
     price: 500,
@@ -273,7 +273,7 @@ const all_products = [
     id: "30",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/29012/source/450x450/e9f7dcdc-6799-449a-9c52-a1bcb2bff3ab-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701465116.jpg",
-    title: "Суші унагі ",
+    title: "Sushi Unagi ",
     gramm: 40,
     category: "Sushi and sets",
     price: 30,
@@ -282,7 +282,7 @@ const all_products = [
     id: "31",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/29015/source/450x450/b1dd3455-0e7f-4fc4-bb9e-3be7aa31a2e8-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701465124.jpg",
-    title: "Суші ебі ",
+    title: "Sushi Ebi ",
     gramm: 38,
     category: "Sushi and sets",
     price: 20,
