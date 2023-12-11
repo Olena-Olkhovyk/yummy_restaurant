@@ -7,7 +7,18 @@ import Home from "./Components/Main/Home";
 import ItemDetails from "./Components/Items/ItemDetails";
 import { Provider } from "react-redux";
 import { store } from "./redux/store";
+import MenuCategory from "./Components/MenuCategory/MenuCategory";
 
+const menuCategories = [
+  "Burger",
+  "Pizza",
+  "Garyachi stravy",
+  "Drinks",
+  "Salads",
+  "Soup",
+  "Desserts",
+  "Sushi and sets",
+];
 const router = createBrowserRouter([
   {
     path: "/",
@@ -25,6 +36,10 @@ const router = createBrowserRouter([
         path: "/item/:itemName",
         element: <ItemDetails />,
       },
+      ...menuCategories.map((category) => ({
+        path: `/${category}`,
+        element: <MenuCategory category={category} />,
+      })),
     ],
   },
 ]);
