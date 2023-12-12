@@ -1,0 +1,23 @@
+.itemContainer {
+  position: relative;
+  left: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 40px;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 15px;
+  min-width: 350px;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+@media screen and (max-width: 1018px) {
+  .itemContainer {
+    margin-top: 13rem;
+  }
+}
+@media screen and (max-width: 524px) {
+  .itemContainer {
+    left: 3.5rem;
+  }
+}
