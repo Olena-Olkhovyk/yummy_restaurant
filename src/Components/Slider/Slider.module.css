@@ -2,7 +2,7 @@
   position: relative;
   left: 6%;
   top: 5rem;
-  width: 95%;
+  width: 94%;
   overflow: hidden;
 }
 
@@ -14,7 +14,7 @@
 @media screen and (max-width: 1022px) {
   .slider {
     position: relative;
-    top: 10rem;
+    top: 10.5rem;
     width: 100%;
   }
 }
