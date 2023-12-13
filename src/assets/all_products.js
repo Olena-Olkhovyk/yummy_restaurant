@@ -7,6 +7,8 @@ const all_products = [
     gramm: 1200,
     category: "Pizza",
     price: 200,
+    ingridients:
+      "Ham, brisket, parmesan and mozzarella cheeses, cherry tomatoes",
   },
   {
     id: "1",
@@ -16,6 +18,8 @@ const all_products = [
     gramm: 1350,
     category: "Pizza",
     price: 234,
+    ingridients:
+      "Chicken fillet, bell pepper, mozzarella cheese, pineapple, garlic, marinara sauce, BBQ sauce",
   },
   {
     id: "2",
@@ -25,6 +29,8 @@ const all_products = [
     gramm: 350,
     category: "Pizza",
     price: 50,
+    ingridients:
+      "Chicken fillet, bell pepper, mozzarella cheese, pineapple, garlic, marinara sauce, BBQ sauce",
   },
   {
     id: "3",
@@ -34,6 +40,8 @@ const all_products = [
     gramm: 550,
     category: "Pizza",
     price: 260,
+    ingridients:
+      "Mozzarella cheese, ham, brisket, mushrooms, parmesan, cherry tomatoes and truffle oil ",
   },
   {
     id: "4",
@@ -43,6 +51,8 @@ const all_products = [
     gramm: 280,
     category: "Burger",
     price: 100,
+    ingridients:
+      "Two beef patties, Hochland cheese, onions, pickled cucumber, ketchup, mustard",
   },
   {
     id: "5",
@@ -52,6 +62,7 @@ const all_products = [
     gramm: 180,
     category: "Burger",
     price: 110,
+    ingridients: "Beef cutlet, onion, pickled cucumber, ketchup, mustard",
   },
   {
     id: "6",
@@ -61,6 +72,8 @@ const all_products = [
     gramm: 210,
     category: "Burger",
     price: 150,
+    ingridients:
+      "Beef patty, Hochland cheese, Iceberg lettuce, purple onion, pickle, tomato, signature sauce",
   },
   {
     id: "7",
@@ -70,6 +83,8 @@ const all_products = [
     gramm: 210,
     category: "Burger",
     price: 200,
+    ingridients:
+      "Beef cutlet, hochland cheese, iceberg lettuce, red onion, tomato, tartar and cheese sauces",
   },
   {
     id: "8",
@@ -79,6 +94,8 @@ const all_products = [
     gramm: 340,
     category: "Garyachi stravy",
     price: 300,
+    ingridients:
+      "A strip of grilled pork marinated ribs. Served with BBQ sauce",
   },
   {
     id: "9",
@@ -88,6 +105,7 @@ const all_products = [
     gramm: 540,
     category: "Garyachi stravy",
     price: 320,
+    ingridients: "Sauteed Potatoes with Mushrooms, Green Butter and Herbs",
   },
   {
     id: "10",
@@ -97,6 +115,8 @@ const all_products = [
     gramm: 140,
     category: "Garyachi stravy",
     price: 430,
+    ingridients:
+      "Pork steak, asparagus beans and onion confiture with Carbonara cream sauce, BBQ sauce",
   },
   {
     id: "11",
@@ -106,6 +126,8 @@ const all_products = [
     gramm: 140,
     category: "Garyachi stravy",
     price: 270,
+    ingridients:
+      "Tagliatelle with bacon and ham in cream sauce, garlic and parmesan cheese",
   },
   {
     id: "12",
@@ -115,6 +137,7 @@ const all_products = [
     liter: 0.95,
     category: "Drinks",
     price: 50,
+    ingridients: "Packaged Orange Juice",
   },
   {
     id: "13",
@@ -124,6 +147,7 @@ const all_products = [
     liter: 330,
     category: "Drinks",
     price: 30,
+    ingridients: "Carbonated mineral water",
   },
   {
     id: "14",
@@ -133,6 +157,7 @@ const all_products = [
     liter: 0.95,
     category: "Drinks",
     price: 20,
+    ingridients: "Packaged apple juice",
   },
   {
     id: "15",
@@ -142,6 +167,7 @@ const all_products = [
     liter: 0.95,
     category: "Drinks",
     price: 50,
+    ingridients: "Packaged Sweet Cherry Nectar",
   },
   {
     id: "16",
@@ -151,6 +177,7 @@ const all_products = [
     gramm: 150,
     category: "Desserts",
     price: 100,
+    ingridients: "Classic New York cheesecake with walnut saber",
   },
   {
     id: "17",
@@ -160,6 +187,8 @@ const all_products = [
     gramm: 110,
     category: "Desserts",
     price: 130,
+    ingridients:
+      "Dark and milk chocolate brownies, salted caramel and hazelnuts",
   },
   {
     id: "18",
@@ -169,6 +198,7 @@ const all_products = [
     gramm: 70,
     category: "Desserts",
     price: 120,
+    ingridients: "Shortcrust tart with walnut and salted caramel",
   },
   {
     id: "19",
@@ -178,6 +208,7 @@ const all_products = [
     gramm: 90,
     category: "Desserts",
     price: 110,
+    ingridients: "Napoleon with vanilla custard",
   },
   {
     id: "20",
@@ -187,6 +218,8 @@ const all_products = [
     gramm: 365,
     category: "Soup",
     price: 70,
+    ingridients:
+      "Chicken broth, chicken fillet, egg, noodles and fragrant herbs",
   },
   {
     id: "21",
@@ -196,6 +229,8 @@ const all_products = [
     gramm: 355,
     category: "Soup",
     price: 60,
+    ingridients:
+      "Classic ramen soup with egg noodles, spicy pork belly, pickled egg and roasted sesame seeds",
   },
   {
     id: "22",
@@ -205,6 +240,8 @@ const all_products = [
     gramm: 240,
     category: "Soup",
     price: 76,
+    ingridients:
+      "Creamy soup with salmon, potatoes, onions, dill and white pepper. Served with cheese bruschetta and salmon",
   },
   {
     id: "23",
@@ -214,6 +251,8 @@ const all_products = [
     gramm: 200,
     category: "Soup",
     price: 80,
+    ingridients:
+      "Spicy coconut soup with shrimp, mussels, squid, tom yum paste, garlic, mushrooms, lime, cilantro, chili pepper",
   },
   {
     id: "24",
@@ -223,6 +262,8 @@ const all_products = [
     gramm: 270,
     category: "Salads",
     price: 150,
+    ingridients:
+      "Shrimps, avocado, tomatoes, salad mix, egg, Parmesan cheese, croutons with green butter and garlic, Caesar sauce",
   },
   {
     id: "25",
@@ -232,6 +273,8 @@ const all_products = [
     gramm: 202,
     category: "Salads",
     price: 130,
+    ingridients:
+      "Marinated veal, baked eggplant and bell peppers, salad mix, cherry tomatoes, peanuts, spicy sauce",
   },
   {
     id: "26",
@@ -241,6 +284,8 @@ const all_products = [
     gramm: 272,
     category: "Salads",
     price: 110,
+    ingridients:
+      "Chicken fillet, crispy bacon, tomatoes, salad mix, egg, parmesan cheese, croutons with green oil and garlic, caesar sauce",
   },
   {
     id: "27",
@@ -250,6 +295,8 @@ const all_products = [
     gramm: 242,
     category: "Salads",
     price: 100,
+    ingridients:
+      "Tomatoes, bell peppers, cucumbers, feta cheese, kalamata olives, red onions, mixed salads with olive oil and balsamic sauce.",
   },
   {
     id: "28",
@@ -259,6 +306,8 @@ const all_products = [
     gramm: 1200,
     category: "Sushi and sets",
     price: 900,
+    ingridients:
+      "Classic roll with salmon, Philadelphia cheese and cucumber; Roll with tuna, philadelphia cheese and cucumber; Roll with shrimp, Philadelphia cheese, cucumber and mango-chili sauce; Roll with eel, Philadelphia cheese, cucumber and unagi sauce in sesame seeds; Roll with Philadelphia cheese, cucumber, unagi sauce in sesame seeds.",
   },
   {
     id: "29",
@@ -268,6 +317,8 @@ const all_products = [
     gramm: 400,
     category: "Sushi and sets",
     price: 500,
+    ingridients:
+      "Tempura roll with salmon; Tempura roll with eel and cucumber; Tempura roll with tuna; Unagi sauces, mango-chili, spicy and microgreens.",
   },
   {
     id: "30",
@@ -277,6 +328,7 @@ const all_products = [
     gramm: 40,
     category: "Sushi and sets",
     price: 30,
+    ingridients: "Sushi with eel, microgin and unagi sauce",
   },
   {
     id: "31",
@@ -286,6 +338,7 @@ const all_products = [
     gramm: 38,
     category: "Sushi and sets",
     price: 20,
+    ingridients: "Sushi with tiger shrimp",
   },
 ];
 export default all_products;
