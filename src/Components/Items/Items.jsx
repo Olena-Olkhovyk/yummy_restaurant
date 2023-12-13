@@ -8,7 +8,6 @@ import burger from "../../assets/Items/burger.jpg";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { setItem } from "../../redux/slices/itemSlice";
-import { selectSelectedItems } from "../../redux/slices/itemSlice";
 
 const Items = () => {
   const dispatch = useDispatch();
