@@ -11,14 +11,12 @@ const Header = () => {
       <Link to="/">
         <img src={logo} className={classes.logo} alt="restaurant's logo" />
       </Link>
-
       <ul className={classes.list1}>
         <li>Харків</li>
         <li>Ресторани</li>
         <li>Контакти</li>
       </ul>
       <button className={classes.saleBtn}>-50% на заберу сам</button>
-
       <button className={classes.trackOrder}>Відстежити замовлення</button>
       <ul className={classes.list2}>
         <li>
@@ -38,6 +36,7 @@ const Header = () => {
             Кошик
           </div>
         </li>
+        <span className={classes.itemsAmount}>0</span>
         <li>
           <div className={classes.mobileContent}>
             <i className="fa-solid fa-cart-shopping"></i>
