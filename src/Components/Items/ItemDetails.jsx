@@ -7,14 +7,15 @@ const ItemDetails = () => {
   if (!selectedItem || typeof selectedItem !== "object") {
     return <p>Item not found</p>;
   }
-  const { name, price, image, ingridients, gramm } = selectedItem;
+  const { name, price, image, ingridients, gramm, liter } = selectedItem;
   return (
     <div className={classes.itemDetailCont}>
       <img src={image} alt={name} className={classes.img} />
       <div className={classes.description}>
         <h1 className={classes.title}>
           {" "}
-          {name}({gramm}г){" "}
+          {name}({gramm ? gramm : liter}
+          {gramm ? "г" : "L"}){" "}
         </h1>
         <p className={classes.price}>Ціна: {price}</p>
         <p className={classes.price}>Інгрідієнти{ingridients}</p>
