@@ -2,12 +2,14 @@ import classes from "./Item.module.css";
 import { setItem } from "../../redux/slices/itemSlice";
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
-const Item = ({ name, image, gramm, liter, price }) => {
+const Item = ({ name, image, gramm, liter, price, ingridients }) => {
   const dispatch = useDispatch();
   return (
     <div
       className={classes.itemContainer}
-      onClick={() => dispatch(setItem({ name, image, price }))}
+      onClick={() =>
+        dispatch(setItem({ name, image, price, gramm, liter, ingridients }))
+      }
     >
       <Link to={`/item/${name}`}>
         <img src={image} alt={name} className={classes.img} />
