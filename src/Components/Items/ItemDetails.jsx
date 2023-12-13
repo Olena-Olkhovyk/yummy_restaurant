@@ -15,10 +15,13 @@ const ItemDetails = () => {
         <h1 className={classes.title}>
           {" "}
           {name}({gramm ? gramm : liter}
-          {gramm ? "г" : "L"}){" "}
+          {gramm ? "g" : "L"}){" "}
         </h1>
-        <p className={classes.price}>Ціна: {price}</p>
-        <p className={classes.price}>Інгрідієнти{ingridients}</p>
+        <p className={classes.price}>
+          <span className={classes.ingridientTitle}>Ingridients:</span> <br />
+          <span className={classes.ingridientContent}>{ingridients}</span>
+        </p>
+        <p className={classes.price}>Price: {price}</p>
       </div>
     </div>
   );

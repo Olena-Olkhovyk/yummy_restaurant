@@ -1,26 +1,60 @@
 .itemDetailCont {
   display: flex;
-  gap: 8rem;
-  margin: 2rem 7rem;
+  gap: 5rem;
+  margin: 7rem 5rem;
 }
-
-.title,
-.price {
+.description {
   position: relative;
   left: 5rem;
-  top: 10rem;
+  top: 2rem;
+  width: 100%;
 }
-@media screen and (max-width: 950px) {
+.img {
+  width: 80%;
+  min-width: 300px;
+  height: auto;
+  transition: transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.img:hover {
+  transform: scale(1.09);
+  cursor: pointer;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  margin-bottom: 2rem;
+}
+.ingridientTitle {
+  color: grey;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.ingridientContent,
+.price {
+  font-size: 18px;
+}
+@media screen and (max-width: 1023px) {
+  .itemDetailCont {
+    margin: 13rem 2rem 5rem;
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 800px) {
   .itemDetailCont {
     display: flex;
     flex-direction: column;
-    gap: 0rem;
-    margin: 0rem 7rem;
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+    margin-top: 15rem;
+    margin-left: 7.5rem;
   }
-  .title,
-  .price {
+  .description {
     position: relative;
-    left: 0;
-    top: -10rem;
+    left: 1%;
+    width: 100%;
   }
 }
