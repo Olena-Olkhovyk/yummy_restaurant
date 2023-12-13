@@ -1,4 +1,4 @@
-import classes from "./Item.module.css";
+import classes from "./MenuItem.module.css";
 import { setItem } from "../../redux/slices/itemSlice";
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";

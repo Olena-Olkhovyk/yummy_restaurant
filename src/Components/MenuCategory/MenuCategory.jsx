@@ -1,4 +1,4 @@
-import Item from "../Template/Item";
+import MenuItem from "../Template/MenuItem";
 import all_product from "../../assets/all_products";
 import classes from "./MenuCategory.module.css";
 const MenuCategory = ({ category }) => {
@@ -7,7 +7,7 @@ const MenuCategory = ({ category }) => {
       {all_product.map((item) => {
         if (category === item.category) {
           return (
-            <Item
+            <MenuItem
               key={item.id}
               name={item.title}
               image={item.image}

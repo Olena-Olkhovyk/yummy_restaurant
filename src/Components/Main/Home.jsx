@@ -1,11 +1,11 @@
 import Sliders from "../Slider/Sliders";
-import Items from "../Items/Items";
+import RecommendItems from "../Items/RecommendItems";
 import Delivery from "../Delivery/Delivery";
 const Home = () => {
   return (
     <>
       <Sliders />
-      <Items />
+      <RecommendItems />
       <Delivery />
     </>
   );

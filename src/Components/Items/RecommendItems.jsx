@@ -1,4 +1,4 @@
-import classes from "./Items.module.css";
+import classes from "./RecomItems.module.css";
 import React from "react";
 import Slider from "react-slick";
 import bigpizza from "../../assets/Items/bigpizza.jpg";
