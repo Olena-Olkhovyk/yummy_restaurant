@@ -14,6 +14,7 @@ const MenuCategory = ({ category }) => {
               gramm={item.gramm}
               liter={item.liter}
               price={item.price}
+              ingridients={item.ingridients}
             />
           );
         }
