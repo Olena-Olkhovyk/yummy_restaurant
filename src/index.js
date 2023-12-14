@@ -8,7 +8,6 @@ import ItemDetails from "./Components/Items/ItemDetails";
 import { Provider } from "react-redux";
 import { store } from "./redux/store";
 import MenuCategory from "./Components/MenuCategory/MenuCategory";
-import Cart from "./Components/Cart/Cart";
 
 const menuCategories = [
   "Burger",
@@ -41,10 +40,6 @@ const router = createBrowserRouter([
         path: `/${category}`,
         element: <MenuCategory category={category} />,
       })),
-      {
-        path: "/cart",
-        element: <Cart />,
-      },
     ],
   },
 ]);
