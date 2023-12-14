@@ -1,8 +1,18 @@
 import classes from "./Header.module.css";
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
+import React from "react";
+import Cart from "../Cart/Cart";
+import { useSelector } from "react-redux";
+import { selectCart } from "../../redux/slices/cartSlice";
 
 const Header = () => {
+  const [openCart, setOpenCart] = React.useState(false);
+  const { items } = useSelector(selectCart);
+  const totalItems = items.reduce((sum, item) => sum + item.count, 0);
+  const handleOpenCart = () => {
+    setOpenCart(!openCart);
+  };
   return (
     <div className={classes.headerContainer}>
       <div className={classes.burger}>
@@ -18,13 +28,15 @@ const Header = () => {
         <li>
           <i class="fa-regular fa-user"></i>
         </li>
-        <Link to="/cart">
+
+        <div onClick={handleOpenCart}>
           <li className={classes.cart}>
             <i class="fa-solid fa-cart-shopping"></i>Кошик
           </li>
-        </Link>
-        <span className={classes.itemsAmount}>0</span>
+        </div>
+        <span className={classes.itemsAmount}>{totalItems}</span>
       </ul>
+      <Cart isOpen={openCart} />
     </div>
   );
 };
