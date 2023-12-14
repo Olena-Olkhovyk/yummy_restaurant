@@ -9,6 +9,7 @@ const MenuCategory = ({ category }) => {
           return (
             <MenuItem
               key={item.id}
+              id={item.id}
               name={item.title}
               image={item.image}
               gramm={item.gramm}
