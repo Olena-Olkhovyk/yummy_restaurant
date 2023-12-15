@@ -95,3 +95,10 @@
     display: none;
   }
 }
+@media screen and (max-width: 400px) {
+  .saleBtn {
+    font-size: 11px;
+    padding: 4px 2px;
+    margin-right: 1px;
+  }
+}
