@@ -1,8 +1,8 @@
 .cartBlock {
   position: fixed;
   top: 80px;
-  right: -400px;
-  width: 400px;
+  right: -420px;
+  width: 420px;
   height: 530px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -10,13 +10,14 @@
   color: black;
   display: flex;
   flex-direction: column;
-  gap: 1px;
+  gap: 1rem;
 }
 .cartItems {
   display: flex;
   margin-left: 1rem;
-  gap: 1rem;
+  gap: 1.5rem;
   margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.532);
 }
 .itemsContainer {
   max-height: 330px;
@@ -33,7 +34,45 @@
   width: 100px;
 }
 .itemTitle {
+  font-size: 18px;
+}
+.itemAmountContainer {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.itemAmount {
   font-size: 20px;
+}
+.minus,
+.plus {
+  background-color: #c8aa6a;
+  border-radius: 50%;
+  padding: 1px 3px;
+  font-size: 17px;
+}
+.minus:hover,
+.plus:hover {
+  cursor: pointer;
+  background-color: #d5b266;
+}
+.price {
+  position: relative;
+  left: 100px;
+  top: 10px;
+}
+.deleteItem i {
+  position: relative;
+  left: 247px;
+  top: -30px;
+  font-size: 19px;
+  background-color: #c8aa6a84;
+  border-radius: 50px;
+  padding: 2px 3px;
+}
+.deleteItem i:hover {
+  background-color: #c8aa6aad;
+  cursor: pointer;
 }
 .itemsContainer::-webkit-scrollbar {
   width: 10px;

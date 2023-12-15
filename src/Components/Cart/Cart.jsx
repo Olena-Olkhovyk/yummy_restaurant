@@ -17,7 +17,19 @@ const Cart = ({ isOpen }) => {
                     {name}({gramm ? gramm : liter}
                     {gramm ? "g" : "L"})
                   </h4>
-                  <p className={classes.price}>{price}</p>
+                  <div className={classes.deleteItem}>
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                  <div className={classes.itemAmountContainer}>
+                    <div className={classes.minus}>
+                      <i class="fa-solid fa-minus"></i>
+                    </div>
+                    <span className={classes.itemAmount}>1</span>
+                    <div className={classes.plus}>
+                      <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <h5 className={classes.price}>{price}</h5>
+                  </div>
                 </div>
               </div>
             ))}
