@@ -7,6 +7,7 @@ import chickenSalad from "../../assets/Items/chickenSalad.jpg";
 import burger from "../../assets/Items/burger.jpg";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
+import { addToCart } from "../../redux/slices/cartSlice";
 import { setItem } from "../../redux/slices/itemSlice";
 
 const Items = () => {
@@ -53,18 +54,29 @@ const Items = () => {
       gramm: 305,
     },
   ];
+  const handleAddToCart = (item) => {
+    dispatch(
+      addToCart({
+        id: item.name,
+        name: item.name,
+        image: item.image,
+        gramm: item.gramm,
+        price: item.price,
+      })
+    );
+  };
   return (
     <div className={classes.itemsContainer}>
       <h1>Ми рекомендуємо</h1>
       <div className={classes.itemsCard}>
         <Slider {...settings}>
-          {items.map(({ image, name, price, ingridients, gramm }) => (
-            <div className={classes.itemCard} key={name}>
-              <Link to={`/item/${name}`}>
+          {items.map(({ id, image, name, price, ingridients, gramm }) => (
+            <div className={classes.itemCard} key={id}>
+              <Link to={`/item/${id}`}>
                 <div
                   onClick={() =>
                     dispatch(
-                      setItem({ name, price, image, ingridients, gramm })
+                      setItem({ id, name, price, image, ingridients, gramm })
                     )
                   }
                 >
@@ -77,7 +89,12 @@ const Items = () => {
                   <h3 className={classes.price}>{price} грн</h3>
                 </div>
               </Link>
-              <button className={classes.orderButton}>Замовити</button>
+              <button
+                className={classes.orderButton}
+                onClick={() => handleAddToCart({ name, image, gramm, price })}
+              >
+                Order
+              </button>
             </div>
           ))}
         </Slider>
