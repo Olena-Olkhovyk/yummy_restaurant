@@ -24,6 +24,9 @@
 .list2 :nth-child(2) {
   display: none;
 }
+.cart {
+  color: white;
+}
 .cart:hover,
 .entrance:hover {
   color: rgb(176, 173, 173);
@@ -64,9 +67,6 @@
   position: relative;
   top: -17px;
   right: 5.3rem;
-}
-a {
-  color: white;
 }
 @media screen and (max-width: 1057px) {
   .list2 :nth-child(2) {
