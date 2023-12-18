@@ -84,13 +84,13 @@
 .orderPrice {
   display: flex;
   position: relative;
-  bottom: -1em;
+  bottom: -0.3em;
   gap: 15rem;
   margin: 2rem;
 }
 .btn {
   position: relative;
-  bottom: 1rem;
+  bottom: 3.5rem;
   margin: 1rem;
   width: 90%;
 }
