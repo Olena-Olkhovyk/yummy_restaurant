@@ -40,7 +40,7 @@ const CartItem = ({ id, image, name, gramm, liter, price }) => {
           <div className={classes.plus} onClick={plusItem}>
             <i class="fa-solid fa-plus"></i>
           </div>
-          <h5 className={classes.price}>{price}</h5>
+          <h5 className={classes.price}>{price}$</h5>
         </div>
       </div>
     </div>

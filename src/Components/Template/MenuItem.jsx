@@ -21,7 +21,7 @@ const Item = ({ id, name, image, gramm, liter, price, ingridients }) => {
           {name}({gramm ? gramm : liter}
           {gramm ? "g" : "l"})
         </h2>
-        <p className={classes.price}> {price}grn</p>
+        <p className={classes.price}> {price}$</p>
       </Link>
       <button onClick={handleAddToCart}>Add to cart</button>
     </div>

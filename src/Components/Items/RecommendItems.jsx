@@ -24,7 +24,7 @@ const Items = () => {
     {
       image: bigpizza,
       name: "Піцца мафія",
-      price: 299,
+      price: 25,
       ingridients:
         "Філе куряче sous-vide, перець болгарський, сир моцарела, ананас, часник, соус маринара, соус BBQ Сирний соус в ПОДАРУНОК!",
       gramm: 1350,
@@ -32,7 +32,7 @@ const Items = () => {
     {
       image: salad,
       name: "Салат цезарь",
-      price: 100,
+      price: 15,
       ingridients:
         "Креветки, авокадо, томати, мікс салатів, яйце, сир Пармезан, крутони з зеленим маслом та часником, соус Цезар",
       gramm: 275,
@@ -40,7 +40,7 @@ const Items = () => {
     {
       image: chickenSalad,
       name: "Салат із куркою",
-      price: 80,
+      price: 20,
       ingridients:
         "Курка, солодкий перець , червона цибуля, ананас, морква, арахіс, соус кисло-солодкий",
       gramm: 375,
@@ -48,7 +48,7 @@ const Items = () => {
     {
       image: burger,
       name: "Бургер",
-      price: 90,
+      price: 15,
       ingridients:
         "Котлета з яловичини, сир хохланд, салат айзберг, червона цибуля, помідор, соуси тар-тар та сирний",
       gramm: 305,
@@ -86,7 +86,7 @@ const Items = () => {
                     className={`img-fluid ${classes.itemImg}`}
                   />
                   <h1 className={classes.itemName}>{name}</h1>
-                  <h3 className={classes.price}>{price} грн</h3>
+                  <h3 className={classes.price}>{price} $</h3>
                 </div>
               </Link>
               <button
