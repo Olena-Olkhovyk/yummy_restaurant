@@ -9,9 +9,6 @@ const ItemDetails = () => {
   if (!selectedItem || typeof selectedItem !== "object") {
     return <p>Item not found</p>;
   }
-  // const handleAddToCart = () => {
-  //   dispatch(addToCart({ id, name, image, gramm, liter, price }));
-  // };
   const { id, name, price, image, ingridients, gramm, liter } = selectedItem;
   return (
     <div className={classes.itemDetailCont}>
