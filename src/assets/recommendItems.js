@@ -7,37 +7,37 @@ export const recommendItems = [
   {
     id: 0,
     image: bigpizza,
-    name: "Піцца мафія",
+    name: "Mafia Pizza",
     price: 25,
     ingridients:
-      "Філе куряче sous-vide, перець болгарський, сир моцарела, ананас, часник, соус маринара, соус BBQ Сирний соус в ПОДАРУНОК!",
+      "Sous-vide chicken fillet, bell pepper, mozzarella cheese, pineapple, garlic, marinara sauce, BBQ sauce",
     gramm: 1350,
   },
   {
     id: 1,
     image: salad,
-    name: "Салат цезарь",
+    name: "Caesar Salad",
     price: 15,
     ingridients:
-      "Креветки, авокадо, томати, мікс салатів, яйце, сир Пармезан, крутони з зеленим маслом та часником, соус Цезар",
+      "Shrimp, avocado, tomatoes, mixed salad greens, egg, Parmesan cheese, croutons with green oil and garlic, Caesar sauce",
     gramm: 275,
   },
   {
     id: 3,
     image: chickenSalad,
-    name: "Салат із куркою",
+    name: "Chicken Salad",
     price: 20,
     ingridients:
-      "Курка, солодкий перець , червона цибуля, ананас, морква, арахіс, соус кисло-солодкий",
+      "Chicken, sweet pepper, red onion, pineapple, carrot, peanuts, sweet and sour sauce",
     gramm: 375,
   },
   {
     id: 4,
     image: burger,
-    name: "Бургер",
+    name: "Burger",
     price: 15,
     ingridients:
-      "Котлета з яловичини, сир хохланд, салат айзберг, червона цибуля, помідор, соуси тар-тар та сирний",
+      "Beef patty, Hochland cheese, iceberg lettuce, red onion, tomato, tartar and cheese sauces",
     gramm: 305,
   },
 ];
