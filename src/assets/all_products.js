@@ -6,7 +6,7 @@ const all_products = [
     title: "Pizza Carbonara ",
     gramm: 1200,
     category: "Pizza",
-    price: 200,
+    price: 10,
     ingridients:
       "Ham, brisket, parmesan and mozzarella cheeses, cherry tomatoes",
   },
@@ -17,7 +17,7 @@ const all_products = [
     title: "Pizza Polo",
     gramm: 1350,
     category: "Pizza",
-    price: 234,
+    price: 15,
     ingridients:
       "Chicken fillet, bell pepper, mozzarella cheese, pineapple, garlic, marinara sauce, BBQ sauce",
   },
@@ -28,7 +28,7 @@ const all_products = [
     title: "Pizza Polo round",
     gramm: 350,
     category: "Pizza",
-    price: 50,
+    price: 8,
     ingridients:
       "Chicken fillet, bell pepper, mozzarella cheese, pineapple, garlic, marinara sauce, BBQ sauce",
   },
@@ -39,7 +39,7 @@ const all_products = [
     title: "Pizza Carbonara",
     gramm: 550,
     category: "Pizza",
-    price: 260,
+    price: 25,
     ingridients:
       "Mozzarella cheese, ham, brisket, mushrooms, parmesan, cherry tomatoes and truffle oil ",
   },
@@ -50,7 +50,7 @@ const all_products = [
     title: "Double Cheeseburger",
     gramm: 280,
     category: "Burger",
-    price: 100,
+    price: 23,
     ingridients:
       "Two beef patties, Hochland cheese, onions, pickled cucumber, ketchup, mustard",
   },
@@ -61,7 +61,7 @@ const all_products = [
     title: "Gamburger",
     gramm: 180,
     category: "Burger",
-    price: 110,
+    price: 9,
     ingridients: "Beef cutlet, onion, pickled cucumber, ketchup, mustard",
   },
   {
@@ -71,7 +71,7 @@ const all_products = [
     title: "Burger King York",
     gramm: 210,
     category: "Burger",
-    price: 150,
+    price: 12,
     ingridients:
       "Beef patty, Hochland cheese, Iceberg lettuce, purple onion, pickle, tomato, signature sauce",
   },
@@ -82,7 +82,7 @@ const all_products = [
     title: "Burger for the Victory",
     gramm: 210,
     category: "Burger",
-    price: 200,
+    price: 25,
     ingridients:
       "Beef cutlet, hochland cheese, iceberg lettuce, red onion, tomato, tartar and cheese sauces",
   },
@@ -93,7 +93,7 @@ const all_products = [
     title: "Grilled ribs",
     gramm: 340,
     category: "Garyachi stravy",
-    price: 300,
+    price: 30,
     ingridients:
       "A strip of grilled pork marinated ribs. Served with BBQ sauce",
   },
@@ -104,7 +104,7 @@ const all_products = [
     title: "Kartoplya ",
     gramm: 540,
     category: "Garyachi stravy",
-    price: 320,
+    price: 26,
     ingridients: "Sauteed Potatoes with Mushrooms, Green Butter and Herbs",
   },
   {
@@ -114,7 +114,7 @@ const all_products = [
     title: "Grilled pork steak",
     gramm: 140,
     category: "Garyachi stravy",
-    price: 430,
+    price: 30,
     ingridients:
       "Pork steak, asparagus beans and onion confiture with Carbonara cream sauce, BBQ sauce",
   },
@@ -125,7 +125,7 @@ const all_products = [
     title: "Pasta Carbonara",
     gramm: 140,
     category: "Garyachi stravy",
-    price: 270,
+    price: 28,
     ingridients:
       "Tagliatelle with bacon and ham in cream sauce, garlic and parmesan cheese",
   },
@@ -136,7 +136,7 @@ const all_products = [
     title: "Orange",
     liter: 0.95,
     category: "Drinks",
-    price: 50,
+    price: 5,
     ingridients: "Packaged Orange Juice",
   },
   {
@@ -144,9 +144,9 @@ const all_products = [
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/29021/source/450x450/3101909e-3a07-45c9-a199-9a517237d868-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701465138.jpg",
     title: "Morshynska gazovana",
-    liter: 330,
+    liter: 1,
     category: "Drinks",
-    price: 30,
+    price: 3,
     ingridients: "Carbonated mineral water",
   },
   {
@@ -156,7 +156,7 @@ const all_products = [
     title: "Apple ",
     liter: 0.95,
     category: "Drinks",
-    price: 20,
+    price: 5,
     ingridients: "Packaged apple juice",
   },
   {
@@ -166,7 +166,7 @@ const all_products = [
     title: "Cherry  ",
     liter: 0.95,
     category: "Drinks",
-    price: 50,
+    price: 5,
     ingridients: "Packaged Sweet Cherry Nectar",
   },
   {
@@ -176,7 +176,7 @@ const all_products = [
     title: "Classic cheesecake  ",
     gramm: 150,
     category: "Desserts",
-    price: 100,
+    price: 15,
     ingridients: "Classic New York cheesecake with walnut saber",
   },
   {
@@ -186,7 +186,7 @@ const all_products = [
     title: "Caramel Brownies  ",
     gramm: 110,
     category: "Desserts",
-    price: 130,
+    price: 17,
     ingridients:
       "Dark and milk chocolate brownies, salted caramel and hazelnuts",
   },
@@ -197,7 +197,7 @@ const all_products = [
     title: "Tarte Horikh with caramel  ",
     gramm: 70,
     category: "Desserts",
-    price: 120,
+    price: 19,
     ingridients: "Shortcrust tart with walnut and salted caramel",
   },
   {
@@ -207,7 +207,7 @@ const all_products = [
     title: "Napoleon   ",
     gramm: 90,
     category: "Desserts",
-    price: 110,
+    price: 15,
     ingridients: "Napoleon with vanilla custard",
   },
   {
@@ -217,7 +217,7 @@ const all_products = [
     title: "Chicken Broth   ",
     gramm: 365,
     category: "Soup",
-    price: 70,
+    price: 23,
     ingridients:
       "Chicken broth, chicken fillet, egg, noodles and fragrant herbs",
   },
@@ -228,7 +228,7 @@ const all_products = [
     title: "Ramen    ",
     gramm: 355,
     category: "Soup",
-    price: 60,
+    price: 23,
     ingridients:
       "Classic ramen soup with egg noodles, spicy pork belly, pickled egg and roasted sesame seeds",
   },
@@ -239,7 +239,7 @@ const all_products = [
     title: "Scandinavian salmon soup    ",
     gramm: 240,
     category: "Soup",
-    price: 76,
+    price: 25,
     ingridients:
       "Creamy soup with salmon, potatoes, onions, dill and white pepper. Served with cheese bruschetta and salmon",
   },
@@ -250,7 +250,7 @@ const all_products = [
     title: "Tom Yum with Seafood    ",
     gramm: 200,
     category: "Soup",
-    price: 80,
+    price: 35,
     ingridients:
       "Spicy coconut soup with shrimp, mussels, squid, tom yum paste, garlic, mushrooms, lime, cilantro, chili pepper",
   },
@@ -261,7 +261,7 @@ const all_products = [
     title: "Caesar with shrimp    ",
     gramm: 270,
     category: "Salads",
-    price: 150,
+    price: 23,
     ingridients:
       "Shrimps, avocado, tomatoes, salad mix, egg, Parmesan cheese, croutons with green butter and garlic, Caesar sauce",
   },
@@ -269,10 +269,10 @@ const all_products = [
     id: "25",
     image:
       "https://mafia.ua/storage/image-storage/2023/12/01/28835/source/450x450/3b8943d3-0b40-455e-b7db-2d7a69669110-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1_1701464408.jpg",
-    title: "Veal saladю    ",
+    title: "Veal salad    ",
     gramm: 202,
     category: "Salads",
-    price: 130,
+    price: 36,
     ingridients:
       "Marinated veal, baked eggplant and bell peppers, salad mix, cherry tomatoes, peanuts, spicy sauce",
   },
@@ -283,7 +283,7 @@ const all_products = [
     title: "Chicken Caesar    ",
     gramm: 272,
     category: "Salads",
-    price: 110,
+    price: 34,
     ingridients:
       "Chicken fillet, crispy bacon, tomatoes, salad mix, egg, parmesan cheese, croutons with green oil and garlic, caesar sauce",
   },
@@ -294,7 +294,7 @@ const all_products = [
     title: "Greek Salad     ",
     gramm: 242,
     category: "Salads",
-    price: 100,
+    price: 32,
     ingridients:
       "Tomatoes, bell peppers, cucumbers, feta cheese, kalamata olives, red onions, mixed salads with olive oil and balsamic sauce.",
   },
@@ -305,7 +305,7 @@ const all_products = [
     title: "Philadelphia",
     gramm: 1200,
     category: "Sushi and sets",
-    price: 900,
+    price: 50,
     ingridients:
       "Classic roll with salmon, Philadelphia cheese and cucumber; Roll with tuna, philadelphia cheese and cucumber; Roll with shrimp, Philadelphia cheese, cucumber and mango-chili sauce; Roll with eel, Philadelphia cheese, cucumber and unagi sauce in sesame seeds; Roll with Philadelphia cheese, cucumber, unagi sauce in sesame seeds.",
   },
@@ -316,7 +316,7 @@ const all_products = [
     title: "Hot Roru",
     gramm: 400,
     category: "Sushi and sets",
-    price: 500,
+    price: 45,
     ingridients:
       "Tempura roll with salmon; Tempura roll with eel and cucumber; Tempura roll with tuna; Unagi sauces, mango-chili, spicy and microgreens.",
   },
@@ -327,7 +327,7 @@ const all_products = [
     title: "Sushi Unagi ",
     gramm: 40,
     category: "Sushi and sets",
-    price: 30,
+    price: 15,
     ingridients: "Sushi with eel, microgin and unagi sauce",
   },
   {
@@ -337,7 +337,7 @@ const all_products = [
     title: "Sushi Ebi ",
     gramm: 38,
     category: "Sushi and sets",
-    price: 20,
+    price: 7,
     ingridients: "Sushi with tiger shrimp",
   },
 ];
