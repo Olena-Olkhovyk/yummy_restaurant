@@ -9,7 +9,7 @@ const Item = ({ id, name, image, gramm, liter, price, ingridients }) => {
     <div
       className={classes.itemContainer}
       onClick={() =>
-        dispatch(setItem({ name, image, price, gramm, liter, ingridients }))
+        dispatch(setItem({ id, name, image, price, gramm, liter, ingridients }))
       }
     >
       <Link to={`/item/${name}`}>
