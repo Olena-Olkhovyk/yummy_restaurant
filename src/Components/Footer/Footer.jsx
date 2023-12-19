@@ -14,6 +14,7 @@ const Footer = () => {
         <a href="#">Франчайзинг</a>
         <a href="#">Договір публічної оферти</a>
         <a href="#">Вакансії</a>
+        <a href="#">Ресторани</a>
       </nav>
       <p className={classes.policy}>
         © 2002 - 2023 MASIA
