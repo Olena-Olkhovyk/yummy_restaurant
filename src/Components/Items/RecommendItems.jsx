@@ -22,6 +22,7 @@ const Items = () => {
   };
   const items = [
     {
+      id: 0,
       image: bigpizza,
       name: "Піцца мафія",
       price: 25,
@@ -30,6 +31,7 @@ const Items = () => {
       gramm: 1350,
     },
     {
+      id: 1,
       image: salad,
       name: "Салат цезарь",
       price: 15,
@@ -38,6 +40,7 @@ const Items = () => {
       gramm: 275,
     },
     {
+      id: 3,
       image: chickenSalad,
       name: "Салат із куркою",
       price: 20,
@@ -46,6 +49,7 @@ const Items = () => {
       gramm: 375,
     },
     {
+      id: 4,
       image: burger,
       name: "Бургер",
       price: 15,
@@ -54,17 +58,7 @@ const Items = () => {
       gramm: 305,
     },
   ];
-  const handleAddToCart = (item) => {
-    dispatch(
-      addToCart({
-        id: item.name,
-        name: item.name,
-        image: item.image,
-        gramm: item.gramm,
-        price: item.price,
-      })
-    );
-  };
+
   return (
     <div className={classes.itemsContainer}>
       <h1>Ми рекомендуємо</h1>
@@ -86,12 +80,14 @@ const Items = () => {
                     className={`img-fluid ${classes.itemImg}`}
                   />
                   <h1 className={classes.itemName}>{name}</h1>
-                  <h3 className={classes.price}>{price} $</h3>
+                  <h3 className={classes.price}>{price}$</h3>
                 </div>
               </Link>
               <button
                 className={classes.orderButton}
-                onClick={() => handleAddToCart({ name, image, gramm, price })}
+                onClick={() =>
+                  dispatch(addToCart({ id, name, price, image, gramm }))
+                }
               >
                 Order
               </button>

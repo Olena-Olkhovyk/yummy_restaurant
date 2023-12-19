@@ -5,9 +5,6 @@ import { Link } from "react-router-dom";
 import { addToCart } from "../../redux/slices/cartSlice";
 const Item = ({ id, name, image, gramm, liter, price, ingridients }) => {
   const dispatch = useDispatch();
-  const handleAddToCart = () => {
-    dispatch(addToCart({ id, name, image, gramm, liter, price }));
-  };
   return (
     <div
       className={classes.itemContainer}
@@ -23,7 +20,13 @@ const Item = ({ id, name, image, gramm, liter, price, ingridients }) => {
         </h2>
         <p className={classes.price}> {price}$</p>
       </Link>
-      <button onClick={handleAddToCart}>Add to cart</button>
+      <button
+        onClick={() =>
+          dispatch(addToCart({ id, name, image, gramm, liter, price }))
+        }
+      >
+        Add to cart
+      </button>
     </div>
   );
 };

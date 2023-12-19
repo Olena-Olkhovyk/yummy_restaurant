@@ -1,13 +1,18 @@
 import React from "react";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import { selectSelectedItems } from "../../redux/slices/itemSlice";
+import { addToCart } from "../../redux/slices/cartSlice";
 import classes from "./ItemDetails.module.css";
 const ItemDetails = () => {
+  const dispatch = useDispatch();
   const selectedItem = useSelector(selectSelectedItems);
   if (!selectedItem || typeof selectedItem !== "object") {
     return <p>Item not found</p>;
   }
-  const { name, price, image, ingridients, gramm, liter } = selectedItem;
+  // const handleAddToCart = () => {
+  //   dispatch(addToCart({ id, name, image, gramm, liter, price }));
+  // };
+  const { id, name, price, image, ingridients, gramm, liter } = selectedItem;
   return (
     <div className={classes.itemDetailCont}>
       <img src={image} alt={name} className={classes.img} />
@@ -22,6 +27,13 @@ const ItemDetails = () => {
           <span className={classes.ingridientContent}>{ingridients}</span>
         </p>
         <p className={classes.price}>Price: {price}</p>
+        <button
+          onClick={() =>
+            dispatch(addToCart({ id, name, image, gramm, liter, price }))
+          }
+        >
+          Order
+        </button>
       </div>
     </div>
   );
