@@ -14,10 +14,8 @@ const Item = ({ id, name, image, gramm, liter, price, ingridients }) => {
     >
       <Link to={`/item/${name}`}>
         <img src={image} alt={name} className={classes.img} />
-        <h2 className={classes.title}>
-          {name}({gramm ? gramm : liter}
-          {gramm ? "g" : "l"})
-        </h2>
+        <h2 className={classes.title}>{name}</h2>
+        <span>({gramm ? `${gramm}g` : `${liter}L`})</span>
         <p className={classes.price}> {price}$</p>
       </Link>
       <button
