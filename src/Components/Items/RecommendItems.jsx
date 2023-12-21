@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../redux/slices/cartSlice";
 import { setItem } from "../../redux/slices/itemSlice";
-import { recommendItems } from "../../assets/recommendItems";
+import { recommendItems } from "../..//assets/Data/recommendItems";
 
 const Items = () => {
   const dispatch = useDispatch();

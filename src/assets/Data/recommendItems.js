@@ -1,7 +1,7 @@
-import bigpizza from "./RecommendItems/bigpizza.jpg";
-import salad from "./RecommendItems/salad.jpg";
-import chickenSalad from "./RecommendItems/chickenSalad.jpg";
-import burger from "./RecommendItems/burger.jpg";
+import bigpizza from "../../assets/RecommendItems/bigpizza.jpg";
+import salad from "../../assets/RecommendItems/salad.jpg";
+import chickenSalad from "../../assets/RecommendItems/chickenSalad.jpg";
+import burger from "../../assets/RecommendItems/burger.jpg";
 
 export const recommendItems = [
   {

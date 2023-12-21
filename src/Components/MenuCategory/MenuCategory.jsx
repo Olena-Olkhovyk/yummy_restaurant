@@ -1,5 +1,5 @@
 import MenuItem from "../Template/MenuItem";
-import all_product from "../../assets/all_products";
+import all_product from "../../assets/Data/all_products";
 import classes from "./MenuCategory.module.css";
 const MenuCategory = ({ category }) => {
   return (
