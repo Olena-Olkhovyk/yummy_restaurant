@@ -1,5 +1,6 @@
 import classes from "./Footer.module.css";
 import logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className={classes.footerContainer}>
@@ -14,6 +15,7 @@ const Footer = () => {
         <a href="#">Франчайзинг</a>
         <a href="#">Договір публічної оферти</a>
         <a href="#">Вакансії</a>
+        <Link to="/restaurants">Restaurant</Link>
         <a href="#">Ресторани</a>
       </nav>
       <p className={classes.policy}>
