@@ -9,16 +9,7 @@ import { Provider } from "react-redux";
 import { store } from "./redux/store";
 import MenuCategory from "./Components/MenuCategory/MenuCategory";
 import Restaurants from "./Components/Restaurants/Restaurants";
-const menuCategories = [
-  "Burger",
-  "Pizza",
-  "Garyachi stravy",
-  "Drinks",
-  "Salads",
-  "Soup",
-  "Desserts",
-  "Sushi and sets",
-];
+import { menuCategories } from "./assets/Data/menuCategories";
 const router = createBrowserRouter([
   {
     path: "/",
