@@ -29,7 +29,6 @@ const Header = () => {
         <li>
           <i class="fa-regular fa-user"></i>
         </li>
-
         <div onClick={handleOpenCart}>
           <li className={classes.cart}>
             <i class="fa-solid fa-cart-shopping"></i>Кошик
@@ -37,7 +36,9 @@ const Header = () => {
         </div>
         <span className={classes.itemsAmount}>{totalItems}</span>
       </ul>
-      <Cart openCart={openCart} setOpenCart={setOpenCart} />
+      {items.length > 0 && (
+        <Cart openCart={openCart} setOpenCart={setOpenCart} />
+      )}
     </div>
   );
 };
