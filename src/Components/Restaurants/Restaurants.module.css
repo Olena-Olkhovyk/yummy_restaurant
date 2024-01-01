@@ -11,15 +11,19 @@
   margin-bottom: 1rem;
 }
 .map {
-  width: 100%;
+  width: 97%;
   height: 60vh;
   border: 0;
   margin-bottom: 2rem;
+  margin: 0 auto;
+  /* min-width: 115%; */
+  margin: 2rem 1rem;
 }
 .popUpContainer {
   text-align: center;
   width: 40%;
   margin: 0 auto;
+  margin-bottom: 2rem;
 }
 .popUpContainer h3 {
   font-size: 35px;
@@ -31,9 +35,64 @@
 .sortPopUp {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
   font-size: 20px;
+  z-index: 999;
 }
 .sortPopUp ul li {
   list-style: none;
   position: relative;
   right: 10px;
 }
+.restaurantsInfo {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+  min-width: 400px;
+}
+.restCont {
+  border: 1px solid rgba(128, 128, 128, 0.495);
+  padding: 10px;
+}
+
+.restaurantImg {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  max-height: 225px;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+.options {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1139px) {
+  .restaurantImg {
+    max-height: 195px;
+  }
+  .map {
+    width: 100%;
+    height: 40vh;
+  }
+  .restaurantsInfo {
+    gap: 40px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  .restaurantImg {
+    max-height: none;
+  }
+}
+/* @media screen and (max-width: 523px) {
+  .map {
+    width: 120%;
+    height: 30vh;
+    margin: 0 auto;
+  }
+} */
